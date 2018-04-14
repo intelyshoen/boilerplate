@@ -1,0 +1,40 @@
+{
+  "name": "parcel-experiments",
+  "version": "1.0.0",
+  "description": "Setting a professional react with parcel as a code buldler.",
+  "repository": "https://github.com/intelyshoen/parcel-experiments",
+  "author": "intelyShoen <intelyShoen@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "autoprefixer": "^8.2.0",
+    "axios": "^0.18.0",
+    "postcss-modules": "^1.1.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-actions": "^2.3.0",
+    "redux-thunk": "^2.2.0",
+    "style.css": "^1.0.0",
+    "typography": "^0.16.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-app": "^3.1.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "cross-env": "^5.1.4",
+    "node-sass": "^4.8.3",
+    "react-devtools": "^3.2.1"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel index.html -d build --public-url ./"
+  },
+  "main": "index.js"
+}
